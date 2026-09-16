@@ -1,5 +1,13 @@
+const escapeHtml = (str) =>
+  str ? String(str).replace(/[&<>"']/g, (m) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[m])) : '';
+
 const getTemplate = (template) => {
-  const escapeHtml = require('escape-html');
   const safeUrl = escapeHtml(template.bgImage);
   const backgroundImageLayer = safeUrl
     ? `<image href="${safeUrl}"
@@ -10,7 +18,7 @@ const getTemplate = (template) => {
     : '';
 
   return `
-    <svg width="700px" height="${parseInt(
+    <svg width="${template.width || '700px'}" height="${parseInt(
       template.height
     )}px" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>

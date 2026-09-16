@@ -416,6 +416,63 @@ const layouts = {
         `;
     },
   },
+  vertical: {
+    width: "300px",
+    height: "300px",
+    style: (template) => {
+      return `* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          .container {
+            width: 300px;
+            height: 300px;
+            font-family: customFont, Poppins, Arial, Helvetica, sans-serif;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            background-color: ${template.theme.bg_color};
+            border: 1px solid ${template.borderColor};
+            ${template.animation.animation};
+          }
+          ${template.animation.keyframes}
+          .container h3::before {
+            content: open-quote;
+            font-size: 50px;
+            display: block;
+            margin-bottom: -20px;
+          }
+          .container h3::after {
+            content: close-quote;
+            font-size: 50px;
+            display: block;
+            margin-bottom: -20px;
+          }
+          .container h3 {
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: 500;
+            color: ${template.theme.quote_color};
+          }
+          .container p {
+            font-style: italic;
+            color: ${template.theme.author_color};
+          }`;
+    },
+    structure: (template) => {
+      return `<div class="container">
+          <h3>${template.quote}</h3>
+          <p>- ${template.author === "Unknown" ? "Anonim" : template.author}</p>
+        </div>`;
+    },
+  },
 };
+
+layouts.vetical = layouts.vertical;
 
 module.exports = layouts;

@@ -20,7 +20,16 @@ class Template {
     this.layout = layout;
     this.setStyle(layout.style);
     this.setStructure(layout.structure);
-    this.calculateHeight(this.quote.length);
+    if (layout.width) {
+      this.width = layout.width;
+    } else {
+      this.width = "700px";
+    }
+    if (layout.height) {
+      this.height = layout.height;
+    } else {
+      this.calculateHeight(this.quote.length);
+    }
   }
 
   setBorderColor(borderColor) {
