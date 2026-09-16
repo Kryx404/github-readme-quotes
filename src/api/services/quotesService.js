@@ -4,6 +4,7 @@ const cardTemplate = require("../../utils/generateTemplate");
 const Template = require("../../models/Template");
 const getValidUrl = require("../../utils/validateUrl");
 const quoteFromCategory = require('../../../customQuotes/category.json');
+const defaultQuotes = require('../../../customQuotes/quotes.json');
 
 getQuoteIndex = (apiResponseLength, quoteType) => {
   // Determine the quote index
@@ -27,21 +28,22 @@ const getQuote = async (quoteObj) => {
       if (apiResponse.length > 0) {
         apiResponse = apiResponse[Math.floor(getQuoteIndex(apiResponse.length, quoteType))];
         if (!apiResponse.quote && !apiResponse.author) {
-          apiResponse = await requestApi(url);
+          apiResponse = defaultQuotes[Math.floor(getQuoteIndex(defaultQuotes.length, quoteType))];
         } else {
           isCustomQuote = true;
         }
       } else {
-        apiResponse = await requestApi(url);
+        apiResponse = defaultQuotes[Math.floor(getQuoteIndex(defaultQuotes.length, quoteType))];
       }
     }
-    else if (quoteCategory) {
+    else if (quoteCategory && quoteFromCategory[quoteCategory]) {
       apiResponse = quoteFromCategory[quoteCategory];
       apiResponse = apiResponse[Math.floor(getQuoteIndex(apiResponse.length, quoteType))];
       isCustomQuote = true;
     }
     else {
-      apiResponse = await requestApi(url);
+      apiResponse = defaultQuotes[Math.floor(getQuoteIndex(defaultQuotes.length, quoteType))];
+      isCustomQuote = true;
     }
 
     let bgImageUrl = "";

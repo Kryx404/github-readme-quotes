@@ -1,43 +1,65 @@
 [
   {
-    "quote": "Github Quotes for README",
-    "author": "Someone under Same Sky"
-  },
-  {
-    "quote": "War is as much a punishment to a punisher as it is to the sufferer",
-    "author": "Thomas Jefferson"
-  },
-  {
-    "quote": "First solve the problem. Then write the code",
+    "quote": "Pertama, selesaikan masalahnya. Baru kemudian tulis kodenya.",
     "author": "John Johnson"
   },
   {
-    "quote": "It is harder to read code than to write it",
+    "quote": "Kode yang baik adalah dokumentasi terbaiknya sendiri.",
+    "author": "Steve McConnell"
+  },
+  {
+    "quote": "Bukan kodenya yang rumit, tapi cara berpikir kita yang belum sederhana.",
+    "author": "Martin Fowler"
+  },
+  {
+    "quote": "Membaca kode orang lain jauh lebih sulit daripada menulis kode sendiri.",
     "author": "Joel Spolsky"
   },
   {
-    "quote": "Parents wonder why the streams are bitter, when they themselves have poisoned the fountain.",
-    "author": "John Locke"
+    "quote": "Jadikan kode bekerja dulu, buat rapi, baru optimasi kecepatannya.",
+    "author": "Kent Beck"
   },
   {
-    "quote": "Pity for the guilty is treason to the innocent.",
-    "author": "Terry Goodkind, Faith of the Fallen"
+    "quote": "Programmer hebat bukan yang tak pernah buat bug, tapi yang selalu belajar darinya.",
+    "author": "Anonim"
   },
   {
-    "quote": "Learn from the mistakes of others. You can't live long enough to make them all yourself",
-    "author": "Eleanor Roosevelt"
+    "quote": "Kesederhanaan adalah prasyarat utama untuk keandalan sistem.",
+    "author": "Edsger W. Dijkstra"
   },
   {
-    "quote": "All big things come from small beginnings. The seed of every habit is a single, tiny decision. But as that decision is repeated, a habit sprouts and grows stronger.",
-    "author": "James Clear"
+    "quote": "Kode ibarat lelucon. Jika harus kamu jelaskan berulang kali, berarti itu buruk.",
+    "author": "Cory House"
   },
   {
-    "quote": "If you are insecure, guess what? The rest of the world is, too. Do not overestimate the competition and underestimate yourself. You are better than you think.",
-    "author": "Tim Ferris"
+    "quote": "Semakin cepat mulai ngoding tanpa rencana, semakin lama proyek selesai.",
+    "author": "Roy Carlson"
   },
   {
-    "quote": "People rarely succeed unless they have fun in what they are doing.",
-    "author": "Dale Carnegie"
+    "quote": "Satu-satunya cara ngoding cepat adalah dengan menulis kode yang bersih.",
+    "author": "Robert C. Martin"
+  },
+  {
+    "quote": "Hapus kode yang tak perlu. Kode terbaik adalah kode yang tak perlu ditulis.",
+    "author": "Jeff Atwood"
+  },
+  {
+    "quote": "Sebelum software bisa digunakan kembali, pastikan software bisa dipakai terlebih dahulu.",
+    "author": "Ralph Johnson"
+  },
+  {
+    "quote": "Jangan takut dengan error, itu tanda kamu sedang mencoba hal baru.",
+    "author": "Anonim"
+  },
+  {
+    "quote": "Setiap developer hebat dulunya pernah bingung mengatasi syntax error pertama.",
+    "author": "Anonim"
+  },
+  {
+    "quote": "Kualitas kode mencerminkan ketenangan pikiran pembuatnya.",
+    "author": "Anonim"
+  }
+]
   },
 
   {

@@ -26,8 +26,9 @@ const quoteController = async (req, res, next) => {
     let animation = animations[req.query.animation] ? animations[req.query.animation]
       : animations["default"];
 
-    let layout = layouts[req.query.layout] ? layouts[req.query.layout]
-      : layouts["default"];
+    let layoutKey = req.query.layout || req.query.type;
+    if (layoutKey === 'vetical') layoutKey = 'vertical';
+    let layout = layouts[layoutKey] ? layouts[layoutKey] : layouts["default"];
 
     let quotesUrl = req.query.quotesUrl || '';
 
