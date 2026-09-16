@@ -58,156 +58,149 @@
   {
     "quote": "Kualitas kode mencerminkan ketenangan pikiran pembuatnya.",
     "author": "Anonim"
-  }
-]
-  },
-
-  {
-    "quote": "I'm on a seafood diet. I see food, and I eat it. 🍣👀🤣",
-    "author": "Someone under Same Sky"
   },
   {
-    "quote": "I have a pet duck that's quackers about code! 🦆💻🤪",
-    "author": "Someone under Same Sky"
+    "quote": "Bukan malas, cuma lagi mode hemat energi komputasi.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm feeling grate today, thanks to autocowreck! 🧀😄🤖",
-    "author": "Someone under Same Sky"
+    "quote": "Tidur adalah fitur penting, bukan bug.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm so board, I need a vacation to boredwalk! 🛹🌴😬",
-    "author": "Someone under Same Sky"
+    "quote": "Jangan pernah menyentuh kode legacy yang berjalan lancar di production.",
+    "author": "Pepatah Developer"
   },
   {
-    "quote": "I'm a big fan of airors. They make me laugh. 😂💨🙃",
-    "author": "Someone under Same Sky"
+    "quote": "Dua hal tersulit di komputer: cache invalidation dan penamaan variabel.",
+    "author": "Phil Karlton"
   },
   {
-    "quote": "I'm not a robot, but sometimes I wish I were. 🤖🧐😅",
-    "author": "Someone under Same Sky"
+    "quote": "Kode saya tidak pernah bermasalah, sampai user mulai memakainya.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm lovin' it when autocorrect makes me say 'I'm McAwesome!' 🍟🍔🤩",
-    "author": "Someone under Same Sky"
+    "quote": "Bekerja mulus di localhost, bermasalah di production.",
+    "author": "Kisah Nyata Developer"
   },
   {
-    "quote": "I'm a typo expert. My keyboard hates me. 🤓⌨️😆",
-    "author": "Someone under Same Sky"
+    "quote": "Ngoding itu 10% menulis kode, 90% mencari titik koma yang hilang.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm sending you a virtual bear hug! 🐻❤️🤗",
-    "author": "Someone under Same Sky"
+    "quote": "Secangkir kopi mengubah kafein menjadi baris kode dan commit.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm like a kid in a candy star! 🍭⭐😁",
-    "author": "Someone under Same Sky"
+    "quote": "Sebelum menyalahkan framework, cek dulu logika kodinganmu.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm so exorcised about this project! 👻💼🤣",
-    "author": "Someone under Same Sky"
+    "quote": "Commit sering-sering, agar hidup lebih tenang saat merge conflict.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm in a hurry, so I'm running ate for our meeting! 🏃‍♂️🍽️😅",
-    "author": "Someone under Same Sky"
+    "quote": "Dokumentasi itu seperti payung, baru dicari saat badai error datang.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm knot a spelling bee champ, but I'll buzz through this message! 🐝📝😂",
-    "author": "Someone under Same Sky"
+    "quote": "Kode bersih adalah rasa hormat untuk developer masa depan, termasuk dirimu.",
+    "author": "Robert C. Martin"
   },
   {
-    "quote": "I'm feeling very e-motional right now. 😢📧😄",
-    "author": "Someone under Same Sky"
+    "quote": "Software dan katedral mirip: pertama kita bangun, lalu kita berdoa.",
+    "author": "Sam Redwine"
   },
   {
-    "quote": "I'm not lazy, I'm just energy efficient! 💤🔋🙃",
-    "author": "Someone under Same Sky"
+    "quote": "Lebih baik luangkan 1 jam merancang daripada 1 minggu debugging.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm not a morning person. I'm an 'it's too early' person. ⏰😴😆",
-    "author": "Someone under Same Sky"
+    "quote": "Semua orang bisa menulis kode untuk mesin. Programmer baik menulis untuk manusia.",
+    "author": "Martin Fowler"
   },
   {
-    "quote": "I'm on a roll today, like a biscuit on a butter! 🍞🤣😋",
-    "author": "Someone under Same Sky"
+    "quote": "Jangan mengulang kode yang sama (Don't Repeat Yourself).",
+    "author": "Andy Hunt"
   },
   {
-    "quote": "I'm a huge fan of 'Friday Eve.' It's almost the weekend! 🎉🙌😄",
-    "author": "Someone under Same Sky"
+    "quote": "Refactoring adalah seni merapikan kamar tanpa membuang barang ke luar.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm not a baker, but I knead you in my life. 🍞❤️🤗",
-    "author": "Someone under Same Sky"
+    "quote": "Bug bukan akhir dunia, itu cuma fitur yang belum sempat terdokumentasi.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm trying to stay positive, but my battery is at 2%! 🔋😬😅",
-    "author": "Someone under Same Sky"
+    "quote": "Tes kodemu sekarang, atau user yang akan mengetes mentalmu di production.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm so egg-cited for brunch! 🍳🥂🤩",
-    "author": "Someone under Same Sky"
+    "quote": "Tetap tenang saat panik: git reset --hard HEAD.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm a big believer in 'peace, glove, and understanding.' ✌️🧤😄",
-    "author": "Someone under Same Sky"
+    "quote": "Baterai 2%, commit belum push, panik maksimal.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm just winging it today, like a penguin in a snowstorm! 🐧❄️🤪",
-    "author": "Someone under Same Sky"
+    "quote": "Jumat sore dilarang keras deploy langsung ke production.",
+    "author": "Hukum DevOps"
   },
   {
-    "quote": "I'm not a doctor, but I'll take a look at your 'heart attax.' ❤️👨‍⚕️🔍",
-    "author": "Someone under Same Sky"
+    "quote": "Solusi terbaik untuk masalah rumit biasanya adalah kode yang paling simpel.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm so proud of my shelf! It has so many great books. 📚🏆😂",
-    "author": "Someone under Same Sky"
+    "quote": "Jangan optimasi terlalu dini (premature optimization adalah akar masalah).",
+    "author": "Donald Knuth"
   },
   {
-    "quote": "I'm having a bad hair dey. Can't do a thing with it! 💇‍♀️🙆‍♀️😅",
-    "author": "Someone under Same Sky"
+    "quote": "Terkadang ide terbaik muncul saat sedang mandi, bukan di depan layar.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm like a GPS, always 'recalculating' my life's path. 🌐🤖😆",
-    "author": "Someone under Same Sky"
+    "quote": "Satu baris kode yang berhasil dihapus lebih memuaskan dari sepuluh baris baru.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm all about 'self-care.' I took a selfie! 📸🤳😄",
-    "author": "Someone under Same Sky"
+    "quote": "Kecepatan itu penting, namun kebenaran logika jauh lebih utama.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm a real catch...a typo catching expert! 🎣📝😂",
-    "author": "Someone under Same Sky"
+    "quote": "Fokus selesaikan satu fitur dengan tuntas daripada memulai lima fitur setengah jadi.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm not a chef, but I can make toast! 🍞👩‍🍳🤣",
-    "author": "Someone under Same Sky"
+    "quote": "Debugging ibarat detektif di kasus kriminal di mana pelakunya dirimu sendiri.",
+    "author": "Filipe Fortes"
   },
   {
-    "quote": "I'm on a see-food diet. I see food, and I text about it! 📸🍕😂",
-    "author": "Someone under Same Sky"
+    "quote": "Belajar sintaks itu mudah, melatih logika pemecahan masalah yang butuh waktu.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm a pro at making pour decisions. ☕🍷😅",
-    "author": "Someone under Same Sky"
+    "quote": "Framework berganti tiap tahun, pemahaman dasar algoritma bertahan selamanya.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm not lazy, I'm just in energy saving mode. 💤🔋🙃",
-    "author": "Someone under Same Sky"
+    "quote": "Semua sistem kompleks berasal dari sistem sederhana yang berhasil bekerja.",
+    "author": "John Gall"
   },
   {
-    "quote": "I'm a firm believer in 'carma.' Drive safe! 🚗🔮😄",
-    "author": "Someone under Same Sky"
+    "quote": "Otomatisasi tugas berulang, simpan energimu untuk hal yang kreatif.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm feeling grape today, like a fine bottle of whine! 🍇🍷🤣",
-    "author": "Someone under Same Sky"
+    "quote": "Review kode orang lain dengan empati, kita semua pernah jadi pemula.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm feeling kinda horse right now...neigh! 🐴🤪😆",
-    "author": "Someone under Same Sky"
+    "quote": "Kekuatan terbesar seorang developer adalah rasa ingin tahu dan pantang menyerah.",
+    "author": "Anonim"
   },
   {
-    "quote": "I'm not a fan of exercise, but I'm a fan of extra fries! 🍟🏋️‍♀️🤣",
-    "author": "Someone under Same Sky"
+    "quote": "Baris demi baris, karya hebat lahir dari ketekunan harian.",
+    "author": "Anonim"
   }
 ]
