@@ -6,6 +6,14 @@ const fonts = require("../../fonts/fonts");
 
 const quoteController = async (req, res, next) => {
     try {
+        const allowedUsers = process.env.WHITELIST
+            ? process.env.WHITELIST.split(",").map((u) => u.trim().toLowerCase())
+            : null;
+        const requestedUser = (req.query.user || req.query.username || "").toLowerCase();
+        if (allowedUsers && (!requestedUser || !allowedUsers.includes(requestedUser))) {
+            return res.status(403).send("User not allowed");
+        }
+
         let theme = themes[req.query.theme]
             ? themes[req.query.theme]
             : themes["default"];
