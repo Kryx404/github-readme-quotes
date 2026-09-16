@@ -7,46 +7,59 @@ const layouts = {
                 box-sizing: border-box;
                 }
                 .container {
-                font-family:customFont,Arial,Helvetica,sans-serif;
-                padding: 40px 20px;
+                font-family: customFont, Arial, Helvetica, sans-serif;
+                padding: 35px 25px;
                 min-width: 600px;
                 background: ${template.theme.bg_color};
                 border: 1px solid ${template.borderColor};
-                border-radius: 5px;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
                 ${template.animation.animation};
                 }
                 ${template.animation.keyframes}
                 .container h3 {
-                font-size: 19px;
-                margin-bottom: 5px;
+                font-size: 18px;
+                line-height: 1.4;
+                margin-bottom: 12px;
                 font-weight: 500;
                 font-style: oblique;
                 color: ${template.theme.quote_color};
+                text-align: center;
                 }
                 .container h3::before {
-                content: open-quote;
-                font-size: 25px;
+                content: "“";
+                font-size: 38px;
+                line-height: 0;
+                vertical-align: -10px;
+                margin-right: 4px;
+                color: ${template.theme.quote_color};
                 }
                 .container h3::after {
-                content: close-quote;
-                vertical-align: sub;
-                font-size: 25px;
+                content: "”";
+                font-size: 38px;
+                line-height: 0;
+                vertical-align: -10px;
+                margin-left: 4px;
+                color: ${template.theme.quote_color};
                 }
                 .container p {
-                /* float: right; */
-                /* margin-right: 20px; */
                 font-style: italic;
+                font-size: 14px;
                 padding: 5px;
-                text-align: right;
+                text-align: center;
                 color: ${template.theme.author_color};
                 }`;
     },
     structure: (template) => {
       return `<div class="container">
-                <h3> ${template.quote} </h3>
+                <h3>${template.quote}</h3>
                 <p>- ${
-                  template.author === "Unknown" ? "Anonymous" : template.author
-                } </p>
+                  template.author === "Unknown" ? "Anonim" : template.author
+                }</p>
             </div>`;
     },
   },
@@ -417,58 +430,67 @@ const layouts = {
     },
   },
   vertical: {
-    width: "300px",
-    height: "300px",
     style: (template) => {
-      return `* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-          }
-          .container {
-            width: 300px;
-            height: 300px;
-            font-family: customFont, Poppins, Arial, Helvetica, sans-serif;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            border-radius: 10px;
-            background-color: ${template.theme.bg_color};
-            border: 1px solid ${template.borderColor};
-            ${template.animation.animation};
-          }
-          ${template.animation.keyframes}
-          .container h3::before {
-            content: open-quote;
-            font-size: 50px;
-            display: block;
-            margin-bottom: -20px;
-          }
-          .container h3::after {
-            content: close-quote;
-            font-size: 50px;
-            display: block;
-            margin-bottom: -20px;
-          }
-          .container h3 {
-            margin-bottom: 15px;
-            font-size: 15px;
-            font-weight: 500;
-            color: ${template.theme.quote_color};
-          }
-          .container p {
-            font-style: italic;
-            color: ${template.theme.author_color};
-          }`;
+      return `  * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                }
+                .container {
+                font-family: customFont, Arial, Helvetica, sans-serif;
+                padding: 35px 25px;
+                min-width: 600px;
+                background: ${template.theme.bg_color};
+                border: 1px solid ${template.borderColor};
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                ${template.animation.animation};
+                }
+                ${template.animation.keyframes}
+                .container h3 {
+                font-size: 18px;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                font-weight: 500;
+                font-style: oblique;
+                color: ${template.theme.quote_color};
+                text-align: center;
+                }
+                .container h3::before {
+                content: "“";
+                font-size: 38px;
+                line-height: 0;
+                vertical-align: -10px;
+                margin-right: 4px;
+                color: ${template.theme.quote_color};
+                }
+                .container h3::after {
+                content: "”";
+                font-size: 38px;
+                line-height: 0;
+                vertical-align: -10px;
+                margin-left: 4px;
+                color: ${template.theme.quote_color};
+                }
+                .container p {
+                font-style: italic;
+                font-size: 14px;
+                padding: 5px;
+                text-align: center;
+                color: ${template.theme.author_color};
+                }`;
     },
     structure: (template) => {
       return `<div class="container">
-          <h3>${template.quote}</h3>
-          <p>- ${template.author === "Unknown" ? "Anonim" : template.author}</p>
-        </div>`;
+                <h3>${template.quote}</h3>
+                <p>- ${
+                  template.author === "Unknown" ? "Anonim" : template.author
+                }</p>
+            </div>`;
     },
   },
 };
